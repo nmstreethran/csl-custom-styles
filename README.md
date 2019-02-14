@@ -1,5 +1,5 @@
-# IEEEBibliography
-Custom IEEE bibliography styles for Zotero (.csl) and Microsoft Word (.xsl). Includes DOI. Modified by Nithiya Streethran (nithiya05@gmail.com) for personal use.
+﻿# IEEEBibliography
+Custom IEEE bibliography styles for Zotero (.csl) and Microsoft Word (.xsl). Includes DOI. Modified by Nithiya Streethran (nmstreethran@gmail.com) for personal use.
 
 ## Zotero 
 Original author: Michael Berkowitz (mberkowi@gmu.edu)
