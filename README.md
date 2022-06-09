@@ -2,6 +2,12 @@
 
 Custom citation styles. Modified by Nithiya Streethran (nmstreethran@gmail.com) for personal use.
 
+## Styles
+
+1.  The Open University (numeric, superscript) - modified
+
+    ![The Open University (numeric, superscript) - modified](the-open-university-numeric-superscript-modified.png)
+
 ## Credits
 
 - <https://citationstyles.org/>
