@@ -1,9 +1,12 @@
-﻿# IEEEBibliography
-Custom IEEE bibliography styles for Zotero (.csl) which includes DOI as URL. Modified by Nithiya Streethran (nmstreethran@gmail.com) for personal use.
+﻿# csl-custom-styles
 
-## Zotero 
-Original author: Michael Berkowitz (mberkowi@gmu.edu)
+Custom citation styles. Modified by Nithiya Streethran (nmstreethran@gmail.com) for personal use.
 
-Original contributors: Julian Onions (julian.onions@gmail.com); Rintze Zelle (http://twitter.com/rintzezelle); Stephen Frank (http://www.zotero.org/sfrank); Sebastian Karcher
+## Credits
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+- <https://citationstyles.org/>
+- <https://github.com/citation-style-language/styles>
+
+## License
+
+All styles in this repository are released under the [Creative Commons Attribution-ShareAlike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/). For attribution, any software using CSL styles from this repository must include a clear mention of the CSL project and a link to <https://citationstyles.org/>. When redistributing styles, the listings of authors and contributors in the style metadata must be kept as is.
