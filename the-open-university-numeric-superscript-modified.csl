@@ -4,7 +4,7 @@
   <!-- modified by NMS (nmstreethran@gmail.com) -->
   <info>
     <title>The Open University (numeric, superscript; modified by NMS)</title>
-    <id>http://www.zotero.org/styles/the-open-university-numeric-superscript</id>
+    <id>the-open-university-numeric-superscript-modified-by-nms</id>
     <link href="http://www.zotero.org/styles/the-open-university-numeric-superscript" rel="self"/>
     <link href="http://www.open.ac.uk/library/help-and-support/referencing-styles" rel="documentation"/>
     <author>
@@ -18,7 +18,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>The Open University numeric and superscript style (modified by NMS)</summary>
-    <updated>2022-06-09T19:44:00+00:00</updated>
+    <updated>2022-06-09T19:54:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
