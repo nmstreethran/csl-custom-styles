@@ -4,11 +4,13 @@ Custom citation styles. Modified by Nithiya Streethran (nmstreethran@gmail.com) 
 
 ## Styles
 
-1.  [The Open University (numeric, superscript) - modified](the-open-university-numeric-superscript-modified.csl)
-
-    See the [modifications to the original style](https://github.com/nmstreethran/csl-custom-styles/compare/0afd62c..03e72f6).
+1.  [The Open University (numeric, superscript) - modified](the-open-university-numeric-superscript-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/0afd62c..main)]
 
     ![The Open University (numeric, superscript) - modified](images/the-open-university-numeric-superscript-modified.png)
+
+2.  [IEEE - modified (superscript; en-GB)](ieee-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/6351936..main)]
+
+    ![IEEE - modified (superscript; en-GB)](images/ieee-modified.png)
 
 ## Credits
 
