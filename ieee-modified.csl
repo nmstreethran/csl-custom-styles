@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
+  <!-- modified by NMS (nmstreethran@gmail.com) -->
   <info>
-    <title>IEEE</title>
-    <id>http://www.zotero.org/styles/ieee</id>
+    <title>IEEE (superscript; en-GB; modified by NMS)</title>
+    <id>ieee-modified</id>
     <link href="http://www.zotero.org/styles/ieee" rel="self"/>
     <!-- <link href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" rel="documentation"/> - 2018 guidelines -->
     <link href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf" rel="documentation"/>
@@ -44,14 +45,14 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
-    <summary>IEEE style as per the 2021 guidelines, V 01.29.2021.</summary>
-    <updated>2022-02-06T02:19:36+00:00</updated>
+    <summary>IEEE style as per the 2021 guidelines, V 01.29.2021. (modified by NMS)</summary>
+    <updated>2022-06-11T12:15:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <date form="text">
+      <date-part name="day" form="numeric-leading-zeros" suffix=" "/>
       <date-part name="month" form="short" suffix=" "/>
-      <date-part name="day" form="numeric-leading-zeros" suffix=", "/>
       <date-part name="year"/>
     </date>
     <terms>
@@ -125,7 +126,7 @@
   </macro>
   <macro name="editor">
     <names variable="editor">
-      <name initialize-with=". " delimiter=", " and="text"/>
+      <name initialize-with=". " delimiter=", " and="text" et-al-min="7" et-al-use-first="1"/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
     </names>
   </macro>
@@ -300,7 +301,7 @@
     <sort>
       <key variable="citation-number"/>
     </sort>
-    <layout delimiter=", ">
+    <layout delimiter=", " vertical-align="sup">
       <group prefix="[" suffix="]" delimiter=", ">
         <text variable="citation-number"/>
         <text macro="citation-locator"/>
@@ -308,10 +309,10 @@
     </layout>
   </citation>
   <!-- Bibliography -->
-  <bibliography entry-spacing="0" second-field-align="flush">
+  <bibliography entry-spacing="1" second-field-align="flush" hanging-indent="true">
     <layout>
       <!-- Citation Number -->
-      <text variable="citation-number" prefix="[" suffix="]"/>
+      <text variable="citation-number" prefix="[" suffix="] "/>
       <!-- Author(s) -->
       <text macro="author" suffix=", "/>
       <!-- Rest of Citation -->
