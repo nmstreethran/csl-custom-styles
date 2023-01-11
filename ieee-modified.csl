@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
-  <!-- modified by NMS (nmstreethran@gmail.com) -->
   <info>
     <title>IEEE (superscript; en-GB; modified by NMS)</title>
-    <id>ieee-modified</id>
+    <id>https://raw.githubusercontent.com/nmstreethran/csl-custom-styles/main/ieee-modified.csl</id>
     <link href="http://www.zotero.org/styles/ieee" rel="self"/>
     <!-- <link href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" rel="documentation"/> - 2018 guidelines -->
     <link href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE_Reference_Guide.pdf" rel="documentation"/>
@@ -42,11 +41,16 @@
       <name>Oliver Couch</name>
       <email>oliver.couch@gmail.com</email>
     </contributor>
+    <contributor>
+      <name>Nithiya Streethran</name>
+      <email>nmstreethran@gmail.com</email>
+      <uri>https://nithiya.gitlab.io/</uri>
+    </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
     <summary>IEEE style as per the 2021 guidelines, V 01.29.2021. (modified by NMS)</summary>
-    <updated>2022-06-11T12:15:00+00:00</updated>
+    <updated>2023-01-11T21:45:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
