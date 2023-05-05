@@ -21,7 +21,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The Open University Harvard author-date style</summary>
-    <updated>2023-01-11T21:45:00+00:00</updated>
+    <updated>2023-05-05T10:25:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -78,6 +78,9 @@
   <macro name="director">
     <names variable="author" prefix="Directed by "/>
   </macro>
+  <macro name="isbn">
+    <text variable="ISBN" prefix="ISBN "/>
+  </macro>
   <macro name="access">
     <group delimiter=" ">
       <choose>
@@ -100,6 +103,7 @@
           </group>
         </else>
       </choose>
+      <text macro="isbn"/>
     </group>
   </macro>
   <macro name="title">
@@ -252,8 +256,10 @@
             <group delimiter=", " suffix=".">
               <text macro="editor"/>
               <text variable="container-title" font-style="italic"/>
-              <text variable="collection-title"/>
-              <text variable="collection-number" prefix="No. "/>
+              <group delimiter=" ">
+                <text variable="collection-title"/>
+                <text variable="collection-number"/>
+              </group>
               <text variable="genre"/>
               <text macro="edition"/>
               <text macro="publisher"/>
