@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
-    <title>Cite Them Right 11th edition - Harvard</title>
-    <id>http://www.zotero.org/styles/harvard-cite-them-right-11th-edition</id>
+    <title>Cite Them Right 11th edition - Harvard (modified by N. Streethran)</title>
+    <id>https://raw.githubusercontent.com/nmstreethran/csl-custom-styles/main/harvard-cite-them-right-11th-edition-modified.csl</id>
     <link href="http://www.zotero.org/styles/harvard-cite-them-right-11th-edition" rel="self"/>
     <link href="http://www.zotero.org/styles/harvard-cite-them-right-10th-edition" rel="template"/>
     <link href="http://www.citethemrightonline.com/" rel="documentation"/>
     <author>
       <name>Patrick O'Brien</name>
     </author>
+    <contributor>
+      <name>Nithiya Streethran</name>
+      <email>nmstreethran@gmail.com</email>
+      <uri>https://nithiya.gitlab.io/</uri>
+    </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <summary>Harvard according to Cite Them Right, 11th edition.</summary>
-    <updated>2022-06-27T13:10:07+00:00</updated>
+    <summary>Harvard according to Cite Them Right, 11th edition, modified by N. Streethran.</summary>
+    <updated>2023-05-05T10:25:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -60,7 +65,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
+      <name and="text" initialize-with="." name-as-sort-order="all"/>
       <label form="short" prefix=" (" suffix=")"/>
       <et-al font-style="italic"/>
       <substitute>
@@ -79,7 +84,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
+      <name form="short" and="text" delimiter=", " initialize-with=". "/>
       <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
@@ -98,7 +103,7 @@
   <macro name="access">
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix="doi:"/>
+        <text variable="DOI" prefix="DOI:"/>
       </if>
       <else-if variable="URL">
         <text term="available at" suffix=": " text-case="capitalize-first"/>
@@ -267,7 +272,7 @@
       </if>
     </choose>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year">
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year">
     <sort>
       <key macro="year-date"/>
     </sort>
@@ -284,7 +289,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography and="text" et-al-min="4" et-al-use-first="1">
+  <bibliography and="text" et-al-min="8" et-al-use-first="1">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
