@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard according to Cite Them Right, 11th edition, modified by N. Streethran.</summary>
-    <updated>2023-05-05T10:25:00+00:00</updated>
+    <updated>2023-05-13T22:12:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -65,7 +65,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" initialize-with="." name-as-sort-order="all"/>
+      <name and="text" initialize-with=". " name-as-sort-order="all"/>
       <label form="short" prefix=" (" suffix=")"/>
       <et-al font-style="italic"/>
       <substitute>
@@ -100,10 +100,14 @@
       </substitute>
     </names>
   </macro>
+  <macro name="isbn">
+    <text variable="ISBN" prefix="ISBN " suffix=". "/>
+  </macro>
   <macro name="access">
+    <text macro="isbn"/>
     <choose>
       <if variable="DOI">
-        <text variable="DOI" prefix="DOI:"/>
+        <text variable="DOI" prefix="DOI: "/>
       </if>
       <else-if variable="URL">
         <text term="available at" suffix=": " text-case="capitalize-first"/>

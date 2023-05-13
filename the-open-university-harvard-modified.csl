@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
-    <title>The Open University - Harvard (modified by NMS)</title>
+    <title>The Open University - Harvard (modified by N. Streethran)</title>
     <id>https://raw.githubusercontent.com/nmstreethran/csl-custom-styles/main/the-open-university-harvard-modified.csl</id>
     <link href="http://www.zotero.org/styles/the-open-university-harvard" rel="self"/>
     <link href="http://www.open.ac.uk/library/help-and-support/referencing-and-plagiarism" rel="documentation"/>
@@ -20,8 +20,8 @@
     </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <summary>The Open University Harvard author-date style</summary>
-    <updated>2023-05-05T10:25:00+00:00</updated>
+    <summary>The Open University Harvard author-date style, modified by N. Streethran.</summary>
+    <updated>2023-05-13T22:12:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -83,6 +83,7 @@
   </macro>
   <macro name="access">
     <group delimiter=" ">
+      <text macro="isbn" suffix="."/>
       <choose>
         <if variable="DOI">
           <text variable="DOI" prefix="DOI: "/>
@@ -103,7 +104,7 @@
           </group>
         </else>
       </choose>
-      <text macro="isbn"/>
+
     </group>
   </macro>
   <macro name="title">

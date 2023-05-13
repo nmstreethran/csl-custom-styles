@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
   <info>
-    <title>IEEE (superscript; en-GB; modified by NMS)</title>
+    <title>IEEE (superscript; en-GB; modified by N. Streethran)</title>
     <id>https://raw.githubusercontent.com/nmstreethran/csl-custom-styles/main/ieee-modified.csl</id>
     <link href="http://www.zotero.org/styles/ieee" rel="self"/>
     <!-- <link href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" rel="documentation"/> - 2018 guidelines -->
@@ -49,7 +49,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
-    <summary>IEEE style as per the 2021 guidelines, V 01.29.2021. (modified by NMS)</summary>
+    <summary>IEEE style as per the 2021 guidelines, V 01.29.2021, modified by N. Streethran.</summary>
     <updated>2023-01-11T21:45:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
