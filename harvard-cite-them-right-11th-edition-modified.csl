@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard according to Cite Them Right, 11th edition, modified by N. Streethran.</summary>
-    <updated>2023-05-13T23:01:00+00:00</updated>
+    <updated>2023-08-09T18:51:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -39,7 +39,7 @@
         <choose>
           <if variable="container-author" match="none">
             <names variable="editor translator" delimiter=", ">
-              <name and="text" initialize-with="." name-as-sort-order="all"/>
+              <name and="text" initialize-with=". " name-as-sort-order="all"/>
               <label form="short" prefix=" (" suffix=")"/>
             </names>
           </if>
@@ -52,7 +52,7 @@
       <if type="chapter paper-conference" match="none">
         <names variable="editor translator" delimiter=". ">
           <label form="verb" text-case="capitalize-first" suffix=" "/>
-          <name and="text" initialize-with="."/>
+          <name and="text" initialize-with=". "/>
         </names>
       </if>
       <else-if variable="container-author" match="any">
