@@ -17,7 +17,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Harvard according to Cite Them Right, 11th edition, modified by N. Streethran.</summary>
-    <updated>2023-08-09T18:51:00+00:00</updated>
+    <updated>2023-09-21T19:31:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -41,6 +41,7 @@
             <names variable="editor translator" delimiter=", ">
               <name and="text" initialize-with=". " name-as-sort-order="all"/>
               <label form="short" prefix=" (" suffix=")"/>
+              <et-al font-style="italic"/>
             </names>
           </if>
         </choose>
@@ -204,7 +205,7 @@
         <text variable="year-suffix"/>
       </if>
       <else>
-        <text term="no date"/>
+        <text term="no date" form="short"/>
         <text variable="year-suffix" prefix=" "/>
       </else>
     </choose>
@@ -305,7 +306,7 @@
       <group delimiter=". ">
         <group delimiter=" ">
           <text macro="author"/>
-          <text macro="year-date" prefix="(" suffix=")"/>
+          <text macro="year-date" prefix="(" suffix=")."/>
           <group delimiter=", ">
             <text macro="title"/>
             <group delimiter=" ">
