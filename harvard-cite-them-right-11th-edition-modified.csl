@@ -281,6 +281,7 @@
   </macro>
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year">
     <sort>
+      <key macro="author"/>
       <key macro="year-date"/>
     </sort>
     <layout prefix="(" suffix=")" delimiter="; ">
@@ -296,7 +297,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography and="text" et-al-min="8" et-al-use-first="1">
+  <bibliography and="text" et-al-min="10" et-al-use-first="1" hanging-indent="true" line-spacing="2">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
