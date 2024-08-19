@@ -1,14 +1,12 @@
 ﻿# csl-custom-styles
 
-Custom citation styles. Modified by Nithiya Streethran (nmstreethran@gmail.com) for personal use.
+Custom citation styles. Modified by Nithiya Streethran for personal use.
 
 ## Styles
 
-1. [Cite Them Right 11th edition - Harvard - modified](harvard-cite-them-right-11th-edition-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/f9c8038..main#diff-d0339a7acf512477260361b24a5d5d3b3d85a68b56902c1ed82d7f5809e861a3)]
+1. [Cite Them Right 12th edition - Harvard - modified](harvard-cite-them-right-no-et-al-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/9c6f01a..main#diff-285e71c98303ac83d8fc16eeb77e4baea7e405e62f4651b1accc9baae19ab17d)]
 
 1. [The Open University (numeric, superscript) - modified](the-open-university-numeric-superscript-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/0f4716e..main#diff-e48c324d72fc73dfdd64b1fc7e42acb1ba22cdf5cf028fe25d432ac6fa5b92d4)]
-
-1. [The Open University (Harvard) - modified](the-open-university-harvard-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/c1b253a..main#diff-bad997cac1628b0d4c7b9f6da21cfd1c0c413e15c23cfe76c1b7e0fc6c24b500)]
 
 1. [IEEE - modified (superscript; en-GB)](ieee-modified.csl) [[modifications](https://github.com/nmstreethran/csl-custom-styles/compare/6351936..main#diff-cb60e3d54a84e4c13779c8fa145367c39bd4785688c86185d3b719356682e02e)]
 
