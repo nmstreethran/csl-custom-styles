@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
-    <title>Cite Them Right 12th edition - Harvard (no "et al.")</title>
-    <id>http://www.zotero.org/styles/harvard-cite-them-right-no-et-al</id>
+    <title>Cite Them Right 12th edition - Harvard (no "et al."; modified)</title>
+    <id>https://raw.githubusercontent.com/nmstreethran/csl-custom-styles/main/harvard-cite-them-right-no-et-al-modified.csl</id>
     <link href="http://www.zotero.org/styles/harvard-cite-them-right-no-et-al" rel="self"/>
     <link href="http://www.zotero.org/styles/harvard-cite-them-right" rel="template"/>
     <link href="http://www.citethemrightonline.com/" rel="documentation"/>
@@ -34,7 +34,7 @@
         <choose>
           <if variable="container-author" match="none">
             <names variable="editor translator" delimiter=", ">
-              <name and="text" initialize-with="."/>
+              <name and="text" initialize-with=". "/>
               <label form="short" prefix=" (" suffix=")"/>
             </names>
           </if>
@@ -47,7 +47,7 @@
       <if type="chapter paper-conference" match="none">
         <names variable="editor translator" delimiter=". ">
           <label form="verb" text-case="capitalize-first" suffix=" "/>
-          <name and="text" initialize-with="."/>
+          <name and="text" initialize-with=". "/>
         </names>
       </if>
       <else-if variable="container-author" match="any">
@@ -60,7 +60,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
+      <name and="text" delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all"/>
       <label form="short" prefix=" (" suffix=")"/>
       <et-al font-style="italic"/>
       <substitute>
@@ -196,7 +196,7 @@
         <text variable="year-suffix"/>
       </if>
       <else>
-        <text term="no date"/>
+        <text term="no date" form="short"/>
         <text variable="year-suffix" prefix=" "/>
       </else>
     </choose>
@@ -297,7 +297,7 @@
       <group delimiter=". ">
         <group delimiter=" ">
           <text macro="author"/>
-          <text macro="year-date" prefix="(" suffix=")"/>
+          <text macro="year-date" prefix="(" suffix=")."/>
           <group delimiter=", ">
             <text macro="title"/>
             <group delimiter=" ">
